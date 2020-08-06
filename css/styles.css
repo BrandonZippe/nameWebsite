@@ -347,8 +347,8 @@ padding 0 2em;
     padding: 2em 0;
 }
 
-.footerLinks li a {color: rgba(0, 0, 0, 1);text-decoration: none;padding: 0 1em;}
-
+.footerLinks li a {color: #ffffff;text-decoration: none;padding: 0 1em;}
+.cr {color: #ffffff;}
 .footerLinks li a:hover {text-decoration: underline;}
 
 /*code view styles*/
