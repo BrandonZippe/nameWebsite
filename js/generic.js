@@ -8,7 +8,7 @@ $(document).ready(function(){
 function buildHeader() {
   var headLogo = '<h1 class="logo"><a href="https://brandonzippe.name"><img src="assets/mycon.png" class="mycon" alt="*" /> zippetomylou</a></h1>';
   var menuBtn = '<div class="menuToggle">menu</div>';
-  var headNav = '<nav class="nav"><ul><li><a href="https://brandonzippe.name/resume/" target="_blank">resume</a></li><li><a href="https://www.zippetomylou.com/hire.php" target="_blank">hire</a></li><li><a href="/ui.html">work</a></li><li><a href="/contact.html">contact</a></li></ul></nav>';
+  var headNav = '<nav class="nav"><ul><li><a href="https://brandonzippe.name/resume/" target="_blank">resume</a></li><li><a href="http://www.zippetomylou.com/hire.php" target="_blank">hire</a></li><li><a href="/ui.html">work</a></li><li><a href="/contact.html">contact</a></li></ul></nav>';
   var pageHeader = headLogo + menuBtn + headNav;
 
   $('.header').prepend(pageHeader);
@@ -16,7 +16,7 @@ function buildHeader() {
 
 //footer build
 function buildFooter() {
-  var footerNav = '<ul class="footerLinks"><li><a href="https://brandonzippe.name/resume/" target="_blank">resume</a></li><li><a href="/ui.html">work</a></li><li><a href="https://www.zippetomylou.com/hire.php" target="_blank">hire</a></li><li><a href="/contact.html">contact</a></li></ul>';
+  var footerNav = '<ul class="footerLinks"><li><a href="https://brandonzippe.name/resume/" target="_blank">resume</a></li><li><a href="/ui.html">work</a></li><li><a href="http://www.zippetomylou.com/hire.php" target="_blank">hire</a></li><li><a href="/contact.html">contact</a></li></ul>';
   var cpyRight = '<span class="cr">&copy; zippetomylou designs</span>';
   var pageFooter = footerNav + cpyRight;
 
